@@ -1,0 +1,131 @@
+#map-holder{
+    height: 400px;
+}
+
+.header nav {
+    clear: both;
+    padding: 10px 0px 0px 0px;
+}
+
+.header nav ul {
+    text-align: center;
+}
+
+.header nav li {
+    display: block;
+    float: right;
+}
+
+header nav li a {
+    color: #fff !important;
+    display: block;
+    float: left;
+    font: 700 1em/1.125em 'Montserrat'; /*16px/18px*/
+    letter-spacing: -1px;
+    margin: 0px 0px 0px 14px;
+    padding: 0px 19px 0px 19px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+    font-weight: 500;
+}
+
+header nav li a:hover, header nav li a:active {
+    color: #fff !important;
+    text-decoration: none;
+}
+
+header nav li a:focus {
+    color: #fff !important;
+    outline: none;
+}
+
+header nav li:first-child a {
+    margin-left: 0px;
+}
+
+.masthead {
+    min-height: 55px;
+    color: #111;
+    margin-bottom: initial;
+    padding: 10px 0;
+    background: #450642;
+}
+.account-masthead {
+    min-height: 20px;
+    color: #ffffff !important;
+    background: #29649D !important;
+}
+
+#brand-logo{
+   height: 70px;
+   min-width: 100px;
+}
+
+/* Footer */
+
+.footer {
+    background: #e7e1ef;
+    padding: 15px 0px;
+    margin-top: 8px!important;
+    font-family: 'Questrial'!important;
+    color: #545456!important;
+    font-size: 14px;
+}
+
+.footer #ckan-logo, #derilinx-logo{
+  height: 16px;
+}
+.footer a {
+    color: #000000 !important;
+    font: 700 1em/1.125em 'Montserrat'; /*16px/18px*/
+    letter-spacing: -1px;
+    margin: 0px 0px 0px 14px;
+    padding: 0px 19px 0px 19px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+
+.footer #partners-logo {
+  height: 80px;
+}
+
+.module-content {
+    margin-bottom: 20px;
+}
+
+#update_org {
+    margin-top: 30px;
+    background-color: #005A98;
+    border-color: #005A98;
+
+}
+.container{
+    max-width: 100%;
+}
+
+.line_chart, .map_plot{
+    padding-right: 4px;
+}
+.bar_chart, .plt_avg{
+    padding-left: 4px;
+}
+.header-image{
+    margin-left: 18px;
+}
+
+.row{
+    max-width: 95%;
+    margin: auto;
+}
+
+#nuts_line_plot, #nuts_bar_plot{
+    max-height: 350px;
+}
+
+#nuts_avg_plot{
+    height: 370px;
+}

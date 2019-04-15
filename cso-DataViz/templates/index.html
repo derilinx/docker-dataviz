@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+
+{% block body_content %}
+
+    {% block charts %}
+        <section id="contents">
+          <div class="welcome">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="content">
+                    <h3>Unemployment Rate By Nuts Region</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <section class="charts">
+              <div class="container-fluid">
+                <div class="row">
+
+                  <div class="col-md-8 map_plot">
+                    <div class="chart-container rounded">
+                      <div id="map-holder"></div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4 plt_avg">
+                    <div class="chart-container rounded avg">
+                      <h3 id="avg_chart_title"></h3>
+                    <div id="nuts_avg_plot"></div>
+                  </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+          </section>
+          <section class="charts">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6 line_chart">
+                  <div class="chart-container rounded chart_2">
+                    <h3 id="line_chart_title"></h3>
+                      <h5 id="line_chart_subtitle"></h5>
+                    <div id="nuts_line_plot"></div>
+                  </div>
+                </div>
+                <div class="col-md-6 bar_chart">
+                  <div class="chart-container rounded chart_3">
+                    <h3 id="bar_chart_title"></h3>
+                      <h5 id="bar_chart_subtitle"></h5>
+                    <div id="nuts_bar_plot"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+    {% endblock %}
+
+{% endblock %}
+
